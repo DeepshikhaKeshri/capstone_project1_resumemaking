@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.display-5 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(10, 115, 118);
+  margin-top: 100px;
+}
+
+#intro {
+  background-color: rgb(203, 244, 245);
+  height: auto;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.img1,
+.img2,
+.img3,
+.d-block {
+  max-width: 100%;
+  height: auto;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 100px; /* Adjust the width as needed */
+}
+
+
+.img2 {
+
+  max-width: 200px;
+
+}
+
+.img3 {
+  max-width: 200px;
+ 
+}
+.d-block {
+  border-radius: 50%;
+  border: 2px solid rgb(70, 71, 71);
+  display: inline-block;
+  padding: 5px;
+  background-color: rgb(151, 157, 157);
+}
+
+.feature-icon img {
+  max-width: 250px;
+  height: auto;
+}
+
+.feature-icon video {
+  max-width: 200px;
+  height: auto;
+}
+
+.lead {
+  font-size: 25px;
+  color: rgb(7, 50, 52);
+  font-weight: 400;
+}
+
+#intro2 .display-5 {
+  color: rgb(14, 130, 136) !important;
+  font-weight: bold;
+}
+
+#skills .pb-2,
+#skills .fs-2,
+#contact .display-3 {
+  color: rgb(14, 130, 136) !important;
+}
+
+#contact .display-3 {
+  font-size: 40px;
+}
+
+.custom-button {
+  background-color: rgb(30, 124, 129);
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-button:hover {
+  background-color: brown;
+}
